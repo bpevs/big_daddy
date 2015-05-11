@@ -2,10 +2,11 @@ html {
   padding: 0px;
 }
 body {
-  background-color: gray;
   font-family: 'Permanent Marker', cursive;
   height: 100%;
   padding: 0px;
+  background-image: url("../images/startile.jpg");
+  background-repeat: repeat;
 }
 
 h1 {
@@ -14,10 +15,6 @@ h1 {
 
 a {
   font-size: 4em;
-}
-
-paper-tab {
-  font-size: 2em;
 }
 
 .title {
@@ -35,6 +32,7 @@ paper-tab {
 
 .example {
   margin: auto;
+  color: white;
   width: 80%;
   position: relative;
   top: 50%;
@@ -42,20 +40,17 @@ paper-tab {
 }
 
 .before {
-  background-color: gray;
   padding: 60px;
   padding-top: 30px;
 }
 
 .after {
-  background-color: gray;
   padding: 60px;
   padding-top: 30px;
 }
 
 
 .download {
-  background-color: black;
   height: 100vh;
   background-image: url("../images/BigBigDaddy.png");
   background-size: 100%;
@@ -64,13 +59,23 @@ paper-tab {
 
 .buttonWrapper {
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
+}
+.downloadButton:hover {
+  color: white;
+  background: gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .downloadButton {
-  background-color: black;
+  color: white;
+  background: black;
   padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .wrapper {
