@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Big Daddy",
-  "description": "This extension replaces every \"data\" with the superior word, \"daddy\"",
+  "description": "Big Daddy finds any mention of the word \"data\" and replaces it with the superior word \"daddy\".",
   "version": "1.0",
 
   "icons": {
