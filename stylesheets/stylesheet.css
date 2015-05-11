@@ -19,7 +19,7 @@ a {
 
 .title {
   background-image: url("../images/Explosions.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: white;
   padding: 30px;
