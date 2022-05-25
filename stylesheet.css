@@ -12,14 +12,11 @@ html, body {
 
 h1, h2, h3, a {
   color:  white;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: black;
   text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+   -4px -4px 0 #000,
+    4px -4px 0 #000,
+    -4px 4px 0 #000,
+    4px 4px 0 #000;
 }
 
 h1 { font-size: 7em; }
@@ -27,9 +24,6 @@ h2, a { font-size: 4em; }
 h3 { font-size: 2.5em; }
 
 .page {
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -37,13 +31,13 @@ h3 { font-size: 2.5em; }
 
 .title.page {
   display:  flex;
-  align-content: center;
   background-image: url("../images/Explosions.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   min-height: 100vh;
+  flex-direction: column;
 }
 
 .title-image {
@@ -54,7 +48,7 @@ h3 { font-size: 2.5em; }
 img {
   width: 100%;
   display: block;
-  margin:  auto;
+  margin: 0 auto 0 auto;
 }
 
 .example-image {
