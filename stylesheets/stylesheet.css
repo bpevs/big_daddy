@@ -1,96 +1,67 @@
 html {
   padding: 0px;
 }
+
 body {
-  font-family: 'Permanent Marker', cursive;
+  font-family: Impact, Arial, Verdana;
+  font-weight: bold;
   height: 100%;
   padding: 0px;
+  margin: 0px;
   background-image: url("../images/startile.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
+  display:  flex;
+  flex-direction: column;
+  align-content: center;
 }
 
-h1 {
-  font-size: 4em;
+h1, h2, h3, a {
+  color:  white;
+  width: 100%;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
 }
 
-a {
-  font-size: 4em;
+a { font-size: 5em; }
+h1 { font-size: 10em; }
+h2 { font-size: 5em; }
+h3 { font-size: 3em; }
+
+.page {
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
 }
 
-.title {
+.title.page {
+  display:  flex;
+  align-content: center;
   background-image: url("../images/Explosions.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: white;
-  padding: 30px;
+  background-position: center;
   height: 100vh;
 }
 
-.content {
-  height: 100vh;
+.title-image {
+  height: 60%;
+  width:  auto;
 }
 
-.example {
-  margin: auto;
-  color: white;
-  width: 80%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+img {
+  width: 100%;
+  display: block;
+  margin:  auto;
 }
 
-.before {
-  padding: 60px;
-  padding-top: 30px;
-}
-
-.after {
-  padding: 60px;
-  padding-top: 30px;
-}
-
-
-.download {
-  height: 100vh;
+.download.page {
+  height: 50vh;
+  min-height: 400px;
+  margin-top: 200px;
+  padding-top: 200px;
   background-image: url("../images/BigBigDaddy.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
-.buttonWrapper {
-  position: relative;
-  top: 30%;
-  transform: translateY(-50%);
-}
-.downloadButton:hover {
-  color: white;
-  background: gray;
-  padding: 10px;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-.downloadButton {
-  color: white;
-  background: black;
-  padding: 10px;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-.wrapper {
-  float: left;
-  clear: left;
-  display: table;
-  table-layout: fixed;
-
-}
-img.img-responsive {
-  display: table-cell;
-  max-width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-
