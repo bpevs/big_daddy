@@ -12,8 +12,14 @@ html, body {
 
 h1, h2, h3, a {
   color:  white;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 h1 { font-size: 7em; }
