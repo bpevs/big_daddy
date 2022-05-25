@@ -1,31 +1,23 @@
-html {
-  padding: 0px;
-}
-
-body {
-  font-family: Impact, Arial, Verdana;
-  font-weight: bold;
-  height: 100%;
-  width: 100%;
+html, body {
   padding: 0px;
   margin: 0px;
   background-image: url("../images/startile.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
+  font-family: Impact, Arial, Verdana;
+  font-weight: bold;
   display:  flex;
   flex-direction: column;
 }
 
 h1, h2, h3, a {
   color:  white;
-  width: 100%;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
 }
 
-a { font-size: 5em; }
-h1 { font-size: 9em; }
-h2 { font-size: 4em; }
+h1 { font-size: 7em; }
+h2, a { font-size: 4em; }
 h3 { font-size: 2.5em; }
 
 .page {
@@ -44,7 +36,8 @@ h3 { font-size: 2.5em; }
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .title-image {
@@ -63,7 +56,7 @@ img {
 }
 
 .download.page {
-  height: 50vh;
+  height: 50%;
   min-height: 400px;
   margin-top: 200px;
   padding-top: 200px;
